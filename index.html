@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="titolo">
+        <h1>Frase</h1>
+    </div> <br>
+    <div class="divCentrale">
+        <form action="./script.php" method="post">
+            <label for="frase">Frase: </label> <br>
+            <textarea name="frase" type="text" required></textarea> <br>
+            <label for="valore">Valore d'importanza:</label>
+            <select name="valore" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select> <br>
+            <button type="submit">Invia</button>
+        </form>
+        <a href="./risultato.php">Risultato</a>
+    </div>
+</body>
+
+</html>
